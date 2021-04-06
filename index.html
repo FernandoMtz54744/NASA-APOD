@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>API de NASA</title>
+    
+</head>
+<body>
+    <h1>Imagen del dia de la NASA [APOD API]</h1>
+
+    <form>
+        <label for="date">Ingrese la fecha que desea buscar la imagen</label>
+        <input type="date" id="date">
+        <input type="button" id="buscar" value="Buscar">
+    </form>
+
+    <h2 id="titulo"></h2>
+    <div class="info">
+    <img src="" alt="APOD" id="imagen" class="foto">
+    <iframe width="" width="50vw" src="" id="video" class="foto" allowfullscreen hidden></iframe>
+    <p id="descripcion"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
